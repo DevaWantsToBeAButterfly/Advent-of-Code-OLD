@@ -9,7 +9,7 @@ def solve(part):
     for password_info in passwords:
         password_value = password_info['password']
         password_rule = password_info['rule']
-        rule_letter = password_info['rule'][-1]
+        rule_letter = password_rule[-1]
         first_rule_num = int(password_rule[:password_rule.index('-')])
         second_rule_num = int(password_rule[password_rule.index('-') + 1:password_rule.index(' ')])
 
