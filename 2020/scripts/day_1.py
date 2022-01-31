@@ -1,4 +1,4 @@
-with open('data_files/day_1.txt') as input_file:
+with open('../data_files/day_1.txt') as input_file:
     entries_list = [int(entry) for entry in input_file.readlines()]
 
 
