@@ -2,7 +2,7 @@ import re
 
 digits_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-with open('data_files/day_7.txt') as input_file:
+with open('../data_files/day_7.txt') as input_file:
     base_data = input_file.read().splitlines()
     bags_rules = [re.split(' 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ', rule.replace(',', '').replace('.', '')) for rule in
                   base_data]

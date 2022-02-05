@@ -1,4 +1,4 @@
-with open('data_files/day_3.txt') as input_file:
+with open('../data_files/day_3.txt') as input_file:
     trees_map = input_file.read().splitlines()
 
 

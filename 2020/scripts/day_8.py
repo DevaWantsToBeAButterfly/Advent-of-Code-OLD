@@ -1,4 +1,4 @@
-with open('data_files/day_8.txt') as input_file:
+with open('../data_files/day_8.txt') as input_file:
     boot_code = [{'instruction': command.split(' ')[0], 'value': int(command.split(' ')[1]), 'was_run': False} for
                  command in input_file.read().splitlines()]
     print(boot_code)

@@ -1,4 +1,4 @@
-with open('data_files/day_5.txt') as input_file:
+with open('../data_files/day_5.txt') as input_file:
     boarding_passes = input_file.read().splitlines()
 
 unique_seat_IDs = []

@@ -1,4 +1,4 @@
-with open('data_files/day_4.txt') as input_file:
+with open('../data_files/day_4.txt') as input_file:
     passports = [line.replace('\n', ' ').split(' ') for line in input_file.read().split('\n\n')]
     passports = [{field.split(':')[0]: field.split(':')[1] for field in passport} for passport in passports]
 

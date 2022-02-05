@@ -1,4 +1,4 @@
-with open('data_files/day_6.txt') as input_file:
+with open('../data_files/day_6.txt') as input_file:
     group_surveys = input_file.read().split('\n\n')
 
 questions_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',

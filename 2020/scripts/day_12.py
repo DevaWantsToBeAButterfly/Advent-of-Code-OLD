@@ -1,4 +1,4 @@
-with open('data_files/day_12.txt') as input_file:
+with open('../data_files/day_12.txt') as input_file:
     movements_list = [(line[0], int(line[1:])) for line in input_file.read().splitlines()]
 
 north_value = 0

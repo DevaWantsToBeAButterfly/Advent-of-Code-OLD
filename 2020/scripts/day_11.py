@@ -1,4 +1,4 @@
-with open('data_files/day_11.txt') as input_file:
+with open('../data_files/day_11.txt') as input_file:
     starting_map = [['Floor' if spot == '.' else 'Empty' for spot in row] for row in input_file.read().splitlines()]
 
 OFFSETS = [[-1, -1], [0, -1], [1, -1], [-1, 0], [1, 0], [-1, 1], [0, 1], [1, 1]]
